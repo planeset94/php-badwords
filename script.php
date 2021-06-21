@@ -18,7 +18,21 @@ echo "<br>";
 echo "<br>";
 echo "Il precedente paragrafo ha ". strlen($string) . " caratteri";
 
+$negative_word= $_GET["neg_word"];
+echo "<br>";
+echo "<br>";
+echo "La parola da evitare è : ".$negative_word;
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$newString=str_replace("Lorem", "***", $string);
+echo $newString;
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "Il nuovo  paragrafo ha ". strlen($newString) . " caratteri";
 
 
 
@@ -43,4 +57,6 @@ echo "Il precedente paragrafo ha ". strlen($string) . " caratteri";
 
 </body>
 </html>
+
+
 
