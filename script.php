@@ -12,6 +12,11 @@ Cupiditate quidem corrupti distinctio odio laboriosam autem doloremque quo culpa
 Est numquam, delectus repellendus quos voluptate ipsa error perspiciatis tempore excepturi ratione reprehenderit nemo beatae a amet facere eaque eius dolore earum pariatur! Ipsam assumenda corporis, distinctio animi repellat aliquid.
 Dolore totam consectetur sapiente neque, eveniet voluptates quis quod id sed ipsam labore. Excepturi provident optio quis ea unde, temporibus, placeat, quidem voluptates laborum animi fugiat perferendis. Harum, dolorem laborum.";
 
+echo $string;
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "Il precedente paragrafo ha ". strlen($string) . " caratteri";
 
 
 
