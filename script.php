@@ -27,7 +27,7 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 
-$newString=str_replace("Lorem", "***", $string);
+$newString=str_replace($negative_word, "***", $string);
 echo $newString;
 echo "<br>";
 echo "<br>";
