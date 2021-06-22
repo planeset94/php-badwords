@@ -49,10 +49,21 @@ echo "Il nuovo  paragrafo ha ". strlen($newString) . " caratteri";
     <title>PHP_BADWORDS</title>
 </head>
 <body>
+   <h1>Integrazione HTML - PHP </h1> 
+
+    <p>
+        <?php
+        echo $string
+        ?>
+    </p>
     
+<p>
+    <?php
 
+            echo "Il precedente paragrafo ha ". strlen($string) . " caratteri";
 
-
+    ?>
+</p>
 
 
 </body>
